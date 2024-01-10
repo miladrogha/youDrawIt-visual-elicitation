@@ -1,0 +1,28 @@
+
+
+
+\begin{table}[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{Results of model comparison for recall RMSE across Studies 1 and 2.}
+
+\begin{tabular}{lllllllll}
+\toprule
+ & \multicolumn{1}{c}{elpd\_diff} & \multicolumn{1}{c}{se\_diff} & \multicolumn{1}{c}{elpd\_loo} & \multicolumn{1}{c}{se\_elpd\_loo} & \multicolumn{1}{c}{p\_loo} & \multicolumn{1}{c}{se\_p\_loo} & \multicolumn{1}{c}{looic} & \multicolumn{1}{c}{se\_looic}\\
+\midrule
+Model 1: mu \textasciitilde{} study * treatment + article + topicInvolvement + preAttitude + (1|PID) & 0.00 & 0.00 & 2,063.30 & 39.18 & 206.32 & 5.98 & -4,126.60 & 78.37\\
+Model 2: mu \textasciitilde{} study * treatment + article + topicInvolvement + preAttitude + (1|PID)
+sigma \textasciitilde{} study & -0.72 & 1.52 & 2,062.58 & 38.88 & 203.42 & 5.87 & -4,125.16 & 77.77\\
+Model 0: mu \textasciitilde{} study * treatment + article + (1|PID) & -3.31 & 3.29 & 2,059.98 & 39.14 & 213.42 & 6.16 & -4,119.97 & 78.27\\
+\bottomrule
+\end{tabular}
+
+\end{threeparttable}
+\end{center}
+
+\end{table}
+
+
+
