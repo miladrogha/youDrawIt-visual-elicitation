@@ -20,7 +20,7 @@ All analyses were conducted in R version 4.2.3. Download and Install R and R Stu
 ### 2. Load the Project file
 In the R studio go to file \-> Open project... \-> 
 select and open the file `Data and Analysis.Rproj` from `1_analysis_and_results/R_and_Py/Data and Analysis.Rproj`
-
+YOu do not need to run the rest of the scripts. THey will be ran inside the mentioned scripts.
 ### 3. Run the scripts
 
 Scripts are located in `1_analysis_and_results/R_and_Py/analysis/`
@@ -33,4 +33,5 @@ However, to be able to run `trendelicitation_combined.R`, you need to run the pr
 
 ### 4. Plots
 
-After running each script the results and plots appear in their respective windows.
+After running each script the results and plots appear in their respective window in R Studio. YOu can also access the figures here: `1_analysis_and_results\results_figures\`.
+FOr example, after running the script `combined_plots.R` you can get the result figure in `1_analysis_and_results\results_figures\combined\`
