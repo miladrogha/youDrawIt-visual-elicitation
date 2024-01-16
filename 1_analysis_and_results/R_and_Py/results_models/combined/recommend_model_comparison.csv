@@ -1,3 +1,0 @@
-"","elpd_diff","se_diff","elpd_loo","se_elpd_loo","p_loo","se_p_loo","looic","se_looic"
-"Model 1: mu ~ study * treatment + article + topicInvolvement + preAttitude + (1|PID)",0,0,-1544.83800806733,35.7541129398517,482.959948606658,14.6323488969443,3089.67601613466,71.5082258797034
-"Model 0: mu ~ study * treatment + article + (1|PID)",-15.4745327198475,5.70896326072484,-1560.31254078717,35.5211337652281,502.599739032609,15.4635786729881,3120.62508157435,71.0422675304561

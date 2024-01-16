@@ -1478,3 +1478,4 @@ loo0 = loo(mod.attitude_change_prepost_legalize_0)
 loo1 = loo(mod.attitude_change_prepost_legalize_1)
 comparison_results = as.data.frame(loo_compare(loo0, loo1))
 
+
