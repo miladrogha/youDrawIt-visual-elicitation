@@ -622,10 +622,10 @@ ggsave(plot=plt.recommend,width=6,height=3,dpi=200,
        filename=sprintf(sprintf("%s/article_recommend.pdf", FIG_PATH)), useDingbats=FALSE)
 
 # cumulative
-ggplot(props) +
-  geom_line(aes(x=article_recommend, y=cumfreq, color=treatment)) +
-  geom_point(aes(x=article_recommend, y=cumfreq, color=treatment)) +
-  facet_grid(~ variable, scales='free')
+#ggplot(props) +
+#  geom_line(aes(x=article_recommend, y=cumfreq, color=treatment)) +
+#  geom_point(aes(x=article_recommend, y=cumfreq, color=treatment)) +
+#  facet_grid(~ variable, scales='free')
 
 
 ### Models ----
@@ -1478,4 +1478,4 @@ loo0 = loo(mod.attitude_change_prepost_legalize_0)
 loo1 = loo(mod.attitude_change_prepost_legalize_1)
 comparison_results = as.data.frame(loo_compare(loo0, loo1))
 
-
+sessionInfo()
