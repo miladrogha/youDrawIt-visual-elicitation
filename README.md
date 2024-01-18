@@ -28,7 +28,8 @@ Scripts are located in `1_analysis_and_results/R_and_Py/analysis/`
 You can run `trendelicitation_study1.R` or `trendelicitation_study2.R` in any order.
 However, to be able to run `trendelicitation_combined.R`, you need to run the previous scripts first.
 
-
+#### 3.1: Install required packages
+To install the required packages, first, run `packages.R` located in the [analysis folder](./1_analysis_and_results/R_and_Py/analysis/).
 **Note**: When opening each script, there may be packages missing. In such cases, a notification appears on the top of the screen, prompting to install the missing packages. Simply click on the Install missing packages link, and the program will automatically download the missing packages.
 
 ### 4. Plots
