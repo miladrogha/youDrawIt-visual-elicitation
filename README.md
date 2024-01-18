@@ -35,3 +35,8 @@ However, to be able to run `trendelicitation_combined.R`, you need to run the pr
 
 After running each script, the results and plots appear in their respective window in R Studio. YOu can also access the figures here: `1_analysis_and_results\results_figures\`.
 FOr example, after running the script `combined_plots.R` you can get the result figure in `1_analysis_and_results\results_figures\combined\`
+
+
+## Reproducing Study 1 analysis
+
+To reproduce Study 1 analysis, please visit our [Study 1 repository](https://bit.ly/youdrawit-study1)
