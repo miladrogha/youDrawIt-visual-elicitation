@@ -11,6 +11,8 @@ We hypothesized that eliciting prior beliefs leads to more elaborative thinking 
 Please find the pre-print here: [Link to the pre-print](https://arxiv.org/abs/2401.05511)
 
 
+[![](https://www.replicabilitystamp.org/logo/Reproducibility-small.png)](http://www.replicabilitystamp.org#https-github-com-miladrogha-youdrawit-visual-elicitation-git)
+
 ## Replicability Instructions
 In order to reproduce the analysis depicted in the paper, please follow the steps below. Here, we provide step-by-step instructions to reproduce one of the figures in the paper (Figure 8.)
 
@@ -35,7 +37,7 @@ To install the required packages, first, run `packages.R` located in the [analys
 ### 4. Plots
 
 After running each script, the results and plots appear in their respective window in R Studio. YOu can also access the figures here: `1_analysis_and_results\results_figures\`.
-FOr example, after running the script `combined_plots.R` you can get the result figure in `1_analysis_and_results\results_figures\combined\`
+For example, after running the script `combined_plots.R` you can get the result figure in `1_analysis_and_results\results_figures\combined\`
 
 
 ## Reproducing Study 1 analysis
